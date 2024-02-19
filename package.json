@@ -2,11 +2,15 @@
   "name": "casa-de-cambio",
   "version": "1.0.0",
   "description": "Fazendo um projeto para verificar cotações de cambios mundiais",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "vite": "^5.1.3"
+  }
 }
